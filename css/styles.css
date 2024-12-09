@@ -1,0 +1,251 @@
+html{
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+header {
+     background-color: rgb(0, 0, 0);
+     border: solid 5px #ffffff;
+     padding: 10px;
+     margin: 10px;
+ }
+ 
+nav {
+     background-color: rgb(0, 0, 0);
+     margin: 10px;
+     font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+     color: aliceblue;
+ }
+
+nav li {
+     list-style-type: none;
+     padding: 0 4px 0 4px;
+ }
+
+ nav a {
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     color: #A63132;
+ }
+
+ ul a:hover{
+    color: #A63132;
+}
+
+.button :hover {
+    color: #A63132;
+ }
+
+ .release-date, .song-section-title, .tagline, .merch-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.release-date {
+    background-color: black;
+    border: solid 5px #ffffff;
+    margin: 10px;
+    color: #ffffff;
+    border-radius: 40px;
+}
+
+.tagline {
+    background-color: #BCBCBC;
+    border: solid 5px #ffffff;
+    padding: 10px;
+    margin: 10px;
+    color:  #681B19;
+}
+
+.track-list, .merch-heading {
+    background-color: #BCBCBC;
+    border: solid 5px #ffffff;
+    padding: 10px;
+    margin: 10px;
+    color:  black;
+}
+
+.album, .song-section-title, .about {
+    background-color: #A63132;
+    border: solid 5px #681B19;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.album-title {
+    display: flex;
+    justify-content: center;
+}
+
+.album-cover {
+    max-width: 1347px;
+    max-height: 1347px;
+    border: solid 5px #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buy-button {
+    padding: 20px;
+    margin: 10px;
+    font-size: large;
+    background-color: black;
+    color: #ffffff;
+}
+
+ .artist-name {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/heading.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 5px #ffffff;
+    margin: 10px;
+    min-height: 280px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+ }
+
+ .album-name {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/album-heading.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 5px #ffffff;
+    margin: 10px;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+ }
+
+ .darling-designs {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/merchandise-heading.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 5px #ffffff;
+    margin: 10px;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+ }
+
+ footer {
+    background-color: #BCBCBC;
+    padding: 10px;
+    border: solid 5px rgb(255, 255, 255);
+    margin: 10px;
+    font-family:';
+ }
+
+ footer a {
+    text-decoration: none;
+ }
+
+ul {
+   list-style: none;
+ }
+
+.sizes {
+   list-style: circle;
+   display: flex;
+   flex-direction: column;
+}
+
+ .sources {
+    display: flex;
+    align-items: baseline;
+ }
+
+ .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    max-width: 1670px;
+    margin: auto;
+ }
+ 
+ .song {
+    background-color: #A63132;
+    border: solid 5px #681B19;
+    margin: 10px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    color:#ffffff;
+    font-size: large;
+    border-radius: 25px;
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    max-width: 1670px;
+    margin: auto;
+ }
+ 
+ .card {
+    background-color: #681B19;
+    border: solid 4px #ffffff;
+    margin: 10px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family:'Gorditas','Gill Sans', 'Gill Sans MT', sans-serif;;
+    font-weight: 50;
+    color: #ffffff;
+    border-radius: 25px;
+ }
+ 
+ .card img {
+    background-color: aquamarine;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+ }
+
+ .buy-now {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 100px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+ }
+
+ .merch-heading {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ background-position: center;
+ background-size: cover;
+}
