@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -27,6 +28,7 @@ nav {
      color: aliceblue;
      display: flex;
      justify-content: flex-end;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
 nav li {
@@ -34,17 +36,17 @@ nav li {
      padding: 0 4px 0 4px;
  }
 
- nav a {
+nav a {
      color:rgb(255, 255, 255);
      text-decoration: none;
      padding: 0 8px;
  }
 
- nav a:hover {
+nav a:hover {
      color: #A63132;
  }
 
- ul a:hover{
+ul a:hover{
     color: #A63132;
 }
 
@@ -71,6 +73,48 @@ nav li {
     padding: 10px;
     margin: 10px 0;
     color:  #681B19;
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
+}
+
+.album-title {
+    display: flex;
+    justify-content: center;
+}
+
+.album-title, .about-title, .section-heading, .tracklist-title, .song-section-title {
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
+}
+
+.about-description, .body-text, .about-album, .release-date {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 3ch;
+}
+
+.album, .song-section-title, .about {
+    background-color: #A63132;
+    border: solid 5px #681B19;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.about-description, .about-album {
+    max-width: 90ch;
+    margin: auto;
+    padding: 10px;
+}
+
+.merch-description {
+    line-height: 3ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.signature, .track-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .track-list, .merch-heading {
@@ -81,31 +125,6 @@ nav li {
     color:  black;
 }
 
-.album, .song-section-title, .about {
-    background-color: #A63132;
-    border: solid 5px #681B19;
-    color: #ffffff;
-    padding: 10px;
-}
-
-.about-description, .about-album {
-    max-width: 90ch;
-    margin: auto;
-    padding: 10px;
-}
-
-.signature, .track-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.album-title {
-    display: flex;
-    justify-content: center;
-}
-
 .album-cover {
     /* max-width: 1347px;
     max-height: 1347px; */
@@ -114,22 +133,25 @@ nav li {
     padding: 10px;
     margin: 10px 0;
 }
+
 .album-photo  {
     position: relative;
 }
+
 .buy-button {
     position: absolute;
-    bottom: 10%;
-    right: 10%;
+    bottom: 5%;
+    right: 3%;
     padding: 20px;
     margin: 10px;
     font-size: large;
     background-color: black;
     color: #ffffff;
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
 }
 
 
- .artist-name {
+.artist-name {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/heading.jpg);
     background-position: center;
     background-size: cover;
@@ -144,7 +166,7 @@ nav li {
     color: white;
  }
 
- .album-name {
+.album-name {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/album-heading.jpg);
     background-position: center;
     background-size: cover;
@@ -159,7 +181,7 @@ nav li {
     color: white;
  }
 
- .darling-designs {
+.darling-designs {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 30%), url(../images/merchandise-heading.jpg);
     background-position: center;
     background-size: cover;
@@ -174,14 +196,14 @@ nav li {
     color: white;
  }
 
- footer {
+footer {
     background-color: #BCBCBC;
     padding: 10px;
     border: solid 5px rgb(255, 255, 255);
-    /* margin: 10px; */
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
  }
 
- footer a {
+footer a {
     text-decoration: none;
  }
 
@@ -195,19 +217,19 @@ ul {
    flex-direction: column;
 }
 
- .sources {
+.sources {
     display: flex;
     align-items: baseline;
  }
 
- .socials {
+.socials {
     display: flex;
     flex-direction: column;
     align-items: center;
 
  }
 
- .container {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
@@ -215,7 +237,7 @@ ul {
     margin: auto;
  }
  
- .song {
+.song {
     background-color: #A63132;
     border: solid 5px #681B19;
     margin: 10px;
@@ -229,7 +251,7 @@ ul {
     border-radius: 25px;
  }
 
- .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
@@ -237,7 +259,7 @@ ul {
     margin: auto;
  }
  
- .card {
+.card {
     background-color: #681B19;
     border: solid 4px #ffffff;
     margin: 10px;
@@ -253,7 +275,7 @@ ul {
     border-radius: 25px;
  }
  
- .card img {
+.card img {
     background-color: aquamarine;
     width: 100%;
     object-fit: cover;
@@ -261,16 +283,17 @@ ul {
     border-radius: 15px;
  }
 
- .buy-now {
+.buy-now {
     padding: 10px;
     margin: 10px;
     font-weight: 100px;
     background-color: #ffffff;
     color: black;
     border-radius: 15px;
- }
+    font-family: 'Trebuchet MS', sans-serif, 'Gill Sans', 'Gill Sans MT';
+}
 
- .merch-heading {
+.merch-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -287,6 +310,7 @@ ul {
 }
 
 .song {
-display: flex;
-align-items: center
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
