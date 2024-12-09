@@ -94,7 +94,7 @@ nav li {
     padding: 10px;
 }
 
-.signature {
+.signature, .track-list {
     display: flex;
     flex-direction: column;
     align-items: center;
