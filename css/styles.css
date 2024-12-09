@@ -52,7 +52,7 @@ nav li {
     color: #A63132;
  }
 
- .release-date, .song-section-title, .tagline, .merch-heading {
+ .release-date, .song-section-title, .tagline, .merch-heading, .about-title {
     display: flex;
     justify-content: center;
 }
@@ -86,12 +86,19 @@ nav li {
     border: solid 5px #681B19;
     color: #ffffff;
     padding: 10px;
-    margin: 10px 0;
 }
 
-.about-description {
+.about-description, .about-album {
     max-width: 90ch;
     margin: auto;
+    padding: 10px;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .album-title {
@@ -172,7 +179,6 @@ nav li {
     padding: 10px;
     border: solid 5px rgb(255, 255, 255);
     /* margin: 10px; */
-    font-family:';
  }
 
  footer a {
@@ -265,10 +271,32 @@ ul {
  }
 
  .merch-heading {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: space-evenly;
- background-position: center;
- background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-position: center;
+    background-size: cover;
+}
+
+.song-images {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 200px ;
+    border-radius: 15px;
+}
+
+.song {
+    display: flex;
+    justify-content: baseline;
+}
+
+.song-name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.song-audio {
+    display: flex;
+    justify-content: flex-end;
 }
