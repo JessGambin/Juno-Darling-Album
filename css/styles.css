@@ -287,16 +287,6 @@ ul {
 }
 
 .song {
-    display: flex;
-    justify-content: baseline;
-}
-
-.song-name {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.song-audio {
-    display: flex;
-    justify-content: flex-end;
+display: flex;
+align-items: center
 }
